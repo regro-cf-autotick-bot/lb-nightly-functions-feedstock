@@ -1,5 +1,5 @@
 {% set name = "lb-nightly-functions" %}
-{% set version = "0.1.2" %}
+{% set version = "0.2.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/lb-nightly-functions-{{ version }}.tar.gz
-  sha256: 476542a0b3ebd7b1b8a81aa9b77ca8802a879594a1f70d361bd18c788faa8943
+  sha256: 24ae1aa44cbb3f694bd55a852dd3182f6c3f7650afcce9eecee601b135d063af
 
 build:
   number: 0
@@ -25,12 +25,12 @@ requirements:
   run:
     - aiohttp >=3.7.4,<4.0.0
     - archspec >=0.1.2,<0.2.0
-    - elasticsearch <7.14
     - gitpython >=3.1.18,<4.0.0
     - lb-nightly-configuration >=0.1.4,<0.2.0
     - lb-nightly-db >=0.1,<0.2
-    - lb-nightly-utils >=0.1.2,<0.2.0
+    - lb-nightly-utils >=0.2.0,<0.3.0
     - lbplatformutils >=4.3.8,<5.0.0
+    - opensearch-py >=1.0.0,<2.0.0
     - python >=3.6,<4.0
     - python-gitlab >=2.9.0,<3.0.0
     - spython >=0.1.14,<0.2.0
