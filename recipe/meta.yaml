@@ -30,7 +30,7 @@ requirements:
     - lb-nightly-db >=0.1,<0.2
     - lb-nightly-utils >=0.2.0,<0.3.0
     - lbplatformutils >=4.3.8,<5.0.0
-    - opensearch-py = >=1.0.0,<2.0.0
+    - opensearch-py >=1.0.0,<2.0.0
     - python >=3.6,<4.0
     - python-gitlab >=2.9.0,<3.0.0
     - spython >=0.1.14,<0.2.0
