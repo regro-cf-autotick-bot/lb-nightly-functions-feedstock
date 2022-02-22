@@ -1,5 +1,5 @@
 {% set name = "lb-nightly-functions" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/lb-nightly-functions-{{ version }}.tar.gz
-  sha256: 24ae1aa44cbb3f694bd55a852dd3182f6c3f7650afcce9eecee601b135d063af
+  sha256: 2e1acabbfc319de2c320aa5055c6c86c1a06ba394af5fe37ee8db3be19ec6239
 
 build:
   number: 0
