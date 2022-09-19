@@ -26,14 +26,12 @@ requirements:
     - aiohttp >=3.7.4,<4.0.0
     - archspec >=0.1.2,<0.2.0
     - gitpython >=3.1.18,<4.0.0
-    - lb-nightly-configuration >=0.2,<0.3
-    - lb-nightly-db >=0.1,<0.2
-    - lb-nightly-utils >=0.3,<0.4
+    - lb-nightly-configuration >=0.3,<1.0
+    - lb-nightly-db >=0.2,<1.0
+    - lb-nightly-utils >=0.4,<1.0
     - lbplatformutils >=4.3.8,<5.0.0
-    - opensearch-py >=1.0.0,<2.0.0
     - python >=3.6,<4.0
-    - python-gitlab >=2.9.0,<3.0.0
-    - spython >=0.1.14,<0.2.0
+    - python-gitlab >=3.9.0,<4.0.0
 
 test:
   imports:
